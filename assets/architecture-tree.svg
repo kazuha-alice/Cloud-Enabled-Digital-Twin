@@ -1,0 +1,82 @@
+<svg width="1280" height="690" viewBox="0 0 1280 690" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Cloud-Enabled Digital Twin architecture tree</title>
+  <desc id="desc">Tree style architecture graph showing prototype interface, cloud orchestration, validation metrics, and successor system.</desc>
+  <style>
+    .bg { fill: #f8fafc; }
+    .root { fill: #0f172a; }
+    .card { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.4; }
+    .card-blue { fill: #eff6ff; stroke: #60a5fa; stroke-width: 1.4; }
+    .card-green { fill: #ecfdf5; stroke: #34d399; stroke-width: 1.4; }
+    .card-orange { fill: #fff7ed; stroke: #fb923c; stroke-width: 1.4; }
+    .card-violet { fill: #f5f3ff; stroke: #a78bfa; stroke-width: 1.4; }
+    .line { stroke: #64748b; stroke-width: 2; fill: none; }
+    .title { font: 700 28px Arial, Helvetica, sans-serif; letter-spacing: 0; fill: #f8fafc; }
+    .section { font: 700 20px Arial, Helvetica, sans-serif; letter-spacing: 0; fill: #0f172a; }
+    .text { font: 500 16px Arial, Helvetica, sans-serif; letter-spacing: 0; fill: #334155; }
+    .small { font: 600 13px Arial, Helvetica, sans-serif; letter-spacing: .08em; fill: #64748b; }
+    .white { fill: #f8fafc; }
+    .blue { fill: #2563eb; }
+    .green { fill: #059669; }
+    .orange { fill: #ea580c; }
+    .violet { fill: #7c3aed; }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1280" height="690" rx="24"/>
+
+  <rect class="root" x="330" y="40" width="620" height="84" rx="22"/>
+  <text class="title" x="380" y="92">Cloud-Enabled Digital Twin Prototype</text>
+
+  <path class="line" d="M640 124V178"/>
+  <path class="line" d="M160 178H1120"/>
+  <path class="line" d="M160 178V224"/>
+  <path class="line" d="M480 178V224"/>
+  <path class="line" d="M800 178V224"/>
+  <path class="line" d="M1120 178V224"/>
+
+  <g transform="translate(64 224)">
+    <rect class="card-blue" width="248" height="300" rx="18"/>
+    <circle class="blue" cx="34" cy="34" r="12"/>
+    <text class="small" x="58" y="39">INTERFACE</text>
+    <text class="section" x="28" y="82">Testing Surface</text>
+    <text class="text" x="28" y="126">Dashboard UI</text>
+    <text class="text" x="28" y="166">Task creation controls</text>
+    <text class="text" x="28" y="206">Command testing panel</text>
+    <text class="text" x="28" y="246">Prototype screenshots</text>
+  </g>
+
+  <g transform="translate(384 224)">
+    <rect class="card-orange" width="248" height="300" rx="18"/>
+    <circle class="orange" cx="34" cy="34" r="12"/>
+    <text class="small" x="58" y="39">CLOUD</text>
+    <text class="section" x="28" y="82">Orchestration</text>
+    <text class="text" x="28" y="126">AWS API endpoints</text>
+    <text class="text" x="28" y="166">Remote trigger calls</text>
+    <text class="text" x="28" y="206">Response collection</text>
+    <text class="text" x="28" y="246">API workflow testing</text>
+  </g>
+
+  <g transform="translate(704 224)">
+    <rect class="card-green" width="248" height="300" rx="18"/>
+    <circle class="green" cx="34" cy="34" r="12"/>
+    <text class="small" x="58" y="39">METRICS</text>
+    <text class="section" x="28" y="82">Validation</text>
+    <text class="text" x="28" y="126">Latency measurement</text>
+    <text class="text" x="28" y="166">Response timing</text>
+    <text class="text" x="28" y="206">Polling observation</text>
+    <text class="text" x="28" y="246">Cloud-to-system checks</text>
+  </g>
+
+  <g transform="translate(1024 224)">
+    <rect class="card-violet" width="192" height="300" rx="18"/>
+    <circle class="violet" cx="34" cy="34" r="12"/>
+    <text class="small" x="58" y="39">PHASE 1</text>
+    <text class="section" x="28" y="82">Successor</text>
+    <text class="text" x="28" y="126">Unity 6</text>
+    <text class="text" x="28" y="166">WSS model</text>
+    <text class="text" x="28" y="206">Windows build</text>
+    <text class="text" x="28" y="246">macOS build</text>
+  </g>
+
+  <rect x="232" y="580" width="816" height="56" rx="28" fill="#e2e8f0"/>
+  <text class="text" x="288" y="615">Repository scope: archival documentation only. Runtime APIs are no longer active.</text>
+</svg>

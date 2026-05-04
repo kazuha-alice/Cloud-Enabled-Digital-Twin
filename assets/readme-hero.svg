@@ -1,0 +1,102 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Cloud-Enabled Digital Twin README hero</title>
+  <desc id="desc">Modern technical banner for a deprecated Cloud-Enabled Digital Twin prototype archive.</desc>
+  <style>
+    .bg { fill: #0b1220; }
+    .grid { stroke: #263445; stroke-width: 1; opacity: .45; }
+    .panel { fill: #111827; stroke: #334155; stroke-width: 1; }
+    .panel-soft { fill: #152033; stroke: #334155; stroke-width: 1; }
+    .blue { fill: #38bdf8; }
+    .green { fill: #34d399; }
+    .orange { fill: #fb923c; }
+    .red { fill: #f87171; }
+    .muted { fill: #94a3b8; }
+    .white { fill: #f8fafc; }
+    .line { stroke: #38bdf8; stroke-width: 2; }
+    .line-soft { stroke: #475569; stroke-width: 2; }
+    .title { font: 700 48px Arial, Helvetica, sans-serif; letter-spacing: 0; }
+    .subtitle { font: 400 20px Arial, Helvetica, sans-serif; letter-spacing: 0; }
+    .label { font: 700 14px Arial, Helvetica, sans-serif; letter-spacing: .08em; }
+    .small { font: 600 15px Arial, Helvetica, sans-serif; letter-spacing: 0; }
+    .tiny { font: 500 13px Arial, Helvetica, sans-serif; letter-spacing: 0; }
+  </style>
+
+  <rect class="bg" width="1280" height="420" rx="24"/>
+
+  <g>
+    <path class="grid" d="M80 0V420"/>
+    <path class="grid" d="M160 0V420"/>
+    <path class="grid" d="M240 0V420"/>
+    <path class="grid" d="M320 0V420"/>
+    <path class="grid" d="M400 0V420"/>
+    <path class="grid" d="M480 0V420"/>
+    <path class="grid" d="M560 0V420"/>
+    <path class="grid" d="M640 0V420"/>
+    <path class="grid" d="M720 0V420"/>
+    <path class="grid" d="M800 0V420"/>
+    <path class="grid" d="M880 0V420"/>
+    <path class="grid" d="M960 0V420"/>
+    <path class="grid" d="M1040 0V420"/>
+    <path class="grid" d="M1120 0V420"/>
+    <path class="grid" d="M1200 0V420"/>
+    <path class="grid" d="M0 70H1280"/>
+    <path class="grid" d="M0 140H1280"/>
+    <path class="grid" d="M0 210H1280"/>
+    <path class="grid" d="M0 280H1280"/>
+    <path class="grid" d="M0 350H1280"/>
+  </g>
+
+  <circle cx="1070" cy="95" r="150" fill="#0ea5e9" opacity=".14"/>
+  <circle cx="1180" cy="290" r="130" fill="#22c55e" opacity=".10"/>
+
+  <g transform="translate(64 76)">
+    <rect x="0" y="0" width="126" height="126" rx="28" fill="#0f172a" stroke="#334155"/>
+    <path d="M88 79H42C29.8 79 20 69.2 20 57C20 46.8 27 38.2 36.5 35.8C41 25 51.2 18 63 18C77.1 18 88.8 28.1 91.5 41.3C100.3 44.3 106 52.3 106 61.5C106 71.2 98.2 79 88 79Z" fill="#38bdf8"/>
+    <rect x="31" y="94" width="64" height="8" rx="4" fill="#34d399"/>
+  </g>
+
+  <text x="198" y="118" class="label blue">PROTOTYPE ARCHIVE</text>
+  <text x="198" y="180" class="title white">Cloud-Enabled Digital Twin</text>
+  <text x="198" y="220" class="subtitle muted">Temporary validation layer for cloud orchestration, latency testing, and API workflow experiments.</text>
+
+  <g transform="translate(198 266)">
+    <rect class="panel" x="0" y="0" width="166" height="42" rx="21"/>
+    <circle class="red" cx="24" cy="21" r="6"/>
+    <text class="small white" x="42" y="26">Deprecated</text>
+
+    <rect class="panel" x="184" y="0" width="158" height="42" rx="21"/>
+    <circle class="orange" cx="208" cy="21" r="6"/>
+    <text class="small white" x="226" y="26">AWS Removed</text>
+
+    <rect class="panel" x="360" y="0" width="132" height="42" rx="21"/>
+    <circle class="blue" cx="384" cy="21" r="6"/>
+    <text class="small white" x="402" y="26">HTML / JS</text>
+
+    <rect class="panel" x="510" y="0" width="168" height="42" rx="21"/>
+    <circle class="green" cx="534" cy="21" r="6"/>
+    <text class="small white" x="552" y="26">Unity Phase 1</text>
+  </g>
+
+  <g transform="translate(918 114)">
+    <rect class="panel-soft" x="0" y="0" width="118" height="68" rx="15"/>
+    <text class="tiny muted" x="18" y="26">Prototype</text>
+    <text class="small white" x="18" y="49">HTML / JS</text>
+
+    <path class="line" d="M118 34H154"/>
+    <circle class="blue" cx="154" cy="34" r="4"/>
+
+    <rect class="panel-soft" x="154" y="0" width="118" height="68" rx="15"/>
+    <text class="tiny muted" x="172" y="26">Cloud</text>
+    <text class="small white" x="172" y="49">AWS APIs</text>
+
+    <path class="line" d="M213 68V108"/>
+    <circle class="blue" cx="213" cy="108" r="4"/>
+
+    <rect class="panel-soft" x="154" y="108" width="118" height="68" rx="15"/>
+    <text class="tiny muted" x="172" y="134">Successor</text>
+    <text class="small white" x="172" y="157">Unity 6</text>
+
+    <path class="line-soft" d="M59 68V176H154"/>
+    <text class="tiny muted" x="4" y="210">Documentation archive</text>
+  </g>
+</svg>

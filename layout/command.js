@@ -30,7 +30,7 @@ var CommandCenter = (function () {
     // Set startTime before fetch
     var startTime = performance.now();
 
-    var postUrl = "https://vb75uok5bkd7glvhy2fam4p7gy0bxone.lambda-url.ap-south-1.on.aws/?action=post";
+    var postUrl = "https://<>.lambda-url.ap-south-1.on.aws/?action=post";
     fetch(postUrl, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -79,10 +79,10 @@ var CommandCenter = (function () {
     isPollingRunning = true;
     
     var systems = {
-      R1: "https://3zn2ik4ebtpunfecfbzvydqeee0uyhhw.lambda-url.ap-south-1.on.aws/",
-      R2: "https://onbasxb5gbqdjyow3smf3wuabi0bykpe.lambda-url.ap-south-1.on.aws/",
-      AMR: "https://pqkidjjudx65drhyoqdddxeeya0lziya.lambda-url.ap-south-1.on.aws/",
-      CNC: "https://gvlgxpho5e74vnwhgx2l4k2kza0qqbdl.lambda-url.ap-south-1.on.aws/"
+      R1: "https://<>.lambda-url.ap-south-1.on.aws/",
+      R2: "https://<>.lambda-url.ap-south-1.on.aws/",
+      AMR: "https://<>.lambda-url.ap-south-1.on.aws/",
+      CNC: "https://<>.lambda-url.ap-south-1.on.aws/"
     };
     var systemStatuses = {};
 
@@ -107,9 +107,9 @@ var CommandCenter = (function () {
     });
 
     var latencyUrls = [
-      "https://downv7qdlr6plpgi4fxja32tyu0lrszn.lambda-url.ap-south-1.on.aws/",
-      "https://c3k4yolvbj7rkpoxtyswjm4uwa0qable.lambda-url.ap-south-1.on.aws/",
-      "https://butzgl4libtxtvnj7ubezz3zdq0uayvg.lambda-url.ap-south-1.on.aws/"
+      "https://<>.lambda-url.ap-south-1.on.aws/",
+      "https://<>.lambda-url.ap-south-1.on.aws/",
+      "https://<>.lambda-url.ap-south-1.on.aws/"
     ];
     latencyUrls.forEach(url => {
       var startTime = performance.now();

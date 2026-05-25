@@ -2,7 +2,7 @@
 
 var DictionaryManager = (function () {
   var dataDictionary = {};
-  var lambdaEndpoint = "https://n6esvo2lgif4b5fvep6tkmcp3m0pvsoh.lambda-url.ap-south-1.on.aws/";
+  var lambdaEndpoint = "https://<>.lambda-url.ap-south-1.on.aws/";
 
   function loadFromCloud() {
     fetch(lambdaEndpoint)
